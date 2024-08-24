@@ -4,9 +4,11 @@ To run the Application, first add the database connectivity in application.prope
 example for connecting the mysql database in my case: provide url, username and password.
 
 /*
+
 spring.datasource.url=jdbc:mysql://localhost:3306/employee_directory 
 spring.datasource.username=springstudent
 spring.datasource.password=springstudent 
+
 */
 
 and then run the sql script given below to create the database and table. 
