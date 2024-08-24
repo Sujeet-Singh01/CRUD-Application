@@ -1,20 +1,15 @@
 To run the Application, first add the database connectivity in application.properties file
 
-
 example for connecting the mysql database in my case: provide url, username and password.
 
-/*
 
 spring.datasource.url=jdbc:mysql://localhost:3306/employee_directory 
 spring.datasource.username=springstudent
 spring.datasource.password=springstudent 
 
-*/
 
 and then run the sql script given below to create the database and table. 
 
-
-/*
 
 CREATE DATABASE  IF NOT EXISTS `employee_directory`;
 USE `employee_directory`;
@@ -42,4 +37,3 @@ INSERT INTO `employee` VALUES
 	(2,'Navin','Kumar','navin@code.com'),
 	(3,'Sarthak','Dahake','sarthak@code.com');
  
-*/
