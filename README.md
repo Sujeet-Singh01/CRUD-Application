@@ -4,7 +4,9 @@ example for connecting the mysql database in my case: provide url, username and 
 
 
 spring.datasource.url=jdbc:mysql://localhost:3306/employee_directory 
+
 spring.datasource.username=springstudent
+
 spring.datasource.password=springstudent 
 
 
